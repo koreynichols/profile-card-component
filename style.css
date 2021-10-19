@@ -1,14 +1,37 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+html {
+    height: 100vh;
+}
+
 body {
     margin: 0;
     padding: 0;
     background: hsl(185, 75%, 39%);
+    min-height: 100vh;
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
     background-image: url('./images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 33%;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 100%;
+    border: 5px solid white;
 }
 
 
